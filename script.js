@@ -11,7 +11,7 @@ const cube = new THREE.Mesh(geometry, material); // combine shape + material
 scene.add(cube); // add cube to the stage
 
 // 🎥 Step 4: Move camera back so we can see the cube
-camera.position.z = 0;
+camera.position.z = 2;
 
 // 🖼️ Step 5: Create a Renderer (draws the scene onto the canvas)
 const canvas = document.querySelector("#webgl"); // the <canvas> in HTML
